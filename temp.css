@@ -1,0 +1,24 @@
+body {background-color: #fff; color: #000;}
+
+.wacka {
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {background-color: #000; color: #fff;}
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 2em;
+}
